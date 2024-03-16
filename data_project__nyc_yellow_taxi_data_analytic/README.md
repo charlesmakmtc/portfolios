@@ -11,7 +11,7 @@ The scope of this project includes the following:
 
 ## 2) Data Modeling:
 Creation of three data models using dbt 
-- `daily_received_amount_distribution`: This model focuses on analyzing the daily distribution of received amounts from taxi trips. \![Image Alt Text](https://github.com/charlesmakmtc/portfolios/blob/main/data_project__nyc_yellow_taxi_data_analytic/datamodeling/data%20modeling%20-%20daily_received_amount_distribution.png?raw=true){: width="50%"}
+- `daily_received_amount_distribution`: This model focuses on analyzing the daily distribution of received amounts from taxi trips. \![Image Alt Text](https://github.com/charlesmakmtc/portfolios/blob/main/data_project__nyc_yellow_taxi_data_analytic/datamodeling/data%20modeling%20-%20daily_received_amount_distribution.png){: width="50%"}
 - `daily_taxi_revenue_and_opportunity_consol`: This model consolidates the daily taxi revenue and identifies potential business opportunities (pickup only).
 - `daily_taxi_revenue`: This model analyzes the daily taxi revenue and identifies trends and patterns.
 - For actual data modeling implementation, please refer to repo directory `./taxi_data_model/*`
