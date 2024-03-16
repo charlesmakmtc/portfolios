@@ -12,13 +12,14 @@ The scope of this project includes the following:
 ## 2) Data Modeling:
 Creation of three data models using dbt 
 - `daily_received_amount_distribution`: This model focuses on analyzing the daily distribution of received amounts from taxi trips. 
-![Image Alt Text](/datamodeling/data%20modeling%20-%20daily_received_amount_distribution.png){: width="50%"}
 - `daily_taxi_revenue_and_opportunity_consol`: This model consolidates the daily taxi revenue and identifies potential business opportunities (pickup only).
 - `daily_taxi_revenue`: This model analyzes the daily taxi revenue and identifies trends and patterns.
 - For actual data modeling implementation, please refer to repo directory `./taxi_data_model/*`
 
-
-
+Modeling diagrams preview as follow:
+- `daily_received_amount_distribution`: <img src="./datamodeling/daily_received_amount_distribution.png">
+- `daily_taxi_revenue_and_opportunity_consol`: <img src="./datamodeling/daily_taxi_revenue_and_opportunity_consol.png">
+- `daily_taxi_revenue_and_opportunity_consol`: <img src="./datamodeling/daily_taxi_revenue.png">
 
 
 
@@ -32,15 +33,19 @@ The dashboard will focus on two main domains:
 # Data Dashboard Presentation:
 ## The data dashboard will present the following information:
 
-### Monthly Sales Revenue with Received Amount Distribution Trend:
+### Monthly sales and received amount distributions:
 - Visualizations showing the monthly sales revenue for taxi trips.
 - Trend analysis of the received amount distribution over time.
 - Comparison of revenue and received amount across different months.
 - Insights into revenue growth and potential areas for improvement.
 - Taxi Pickup Business Opportunity with Trend
 
-### Visualizations showcasing the business opportunities for taxi pickups.
+### Visualizations showcasing the business opportunities for taxi pickups
 - Analysis of pickup locations with the highest demand.
 - Trend analysis of pickup locations and identification of potential areas for business expansion.
 - Insights into customer preferences and opportunities for revenue growth.
 
+
+Dashboard preview as follows:
+- `monthly sales and distributions`: <img src="./dashboard/monthly_sales_and_distributions.png">
+- `pick opportunities and popularity tends: <img src="./dashboard/pick_opportunities_and_popularity_tends.png">
